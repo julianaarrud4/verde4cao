@@ -1,0 +1,64 @@
+* {
+  margin: 0; //Remove o espaço externo padrão
+  padding: 0; //Remove o preenchimento padrão
+  box-sizing: border-box; //Respeitar as medidas que eu especificar
+}
+header {
+  background-color: rgb(124, 229, 124);
+  width: 100%; //Largura W
+  height: 20vh; //Altura H
+    display: flex; //Ativa o flexbox
+ h2 {
+    background-color:#66BB6A;
+    color: #66BB6A;
+    display: block; //Ocupa toda a linha (horizontal/largura) independente do tamanho do elemento, comportamento de <div> , <h1>, <p> ...
+
+    display: inline; //Ocupa somente o espaço do elemento, comportamento da tag <a> e <span>
+
+    //O que vamos utilizar - display: inline-block;
+    display: inline-block; //Deixa na mesma linha e permite o controle de larguras e alturas
+    width: 30%;
+    color: #66BB6A; }
+
+  nav {
+    background-color: #66BB6A;
+    display: inline-block;
+    width: 40%;
+    text-align: end;
+
+
+    a {
+      margin-right: 20px;
+      text-decoration: none; //Tira a estilização padrão da tag <a>
+    }
+  }
+}
+
+
+.background {
+    height: 70vh;
+    background-image: url("./assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 180px;
+    h1 {
+        font-size: 5rem;
+        margin-bottom: 20px;
+        font-family: "Sansita Swashed", sans-serif;
+    }
+    p {
+        font-size: 2rem;
+        width: 50%;
+        margin-bottom: 20px;
+        margin-left: 450px;
+    }
+    button {
+        background-color: #66BB6A;
+        color: #ffffff;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 30px;
+    }
+}
