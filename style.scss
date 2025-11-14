@@ -5,10 +5,10 @@
 }
 header {
   background-color: rgb(124, 229, 124);
-  width: 100%; //Largura W
-  height: 20vh; //Altura H
+  
+  height: 10vh; //Altura H
   color: #ffffff; 
-  display: flex; //Ativa o flexbox
+  
  h2 {
     background-color:#66BB6A;
     color: #66BB6A;
@@ -26,7 +26,7 @@ header {
 
   nav {
     background-color: #66BB6A;
-    display: inline-block;
+    display: block;
     width: 40%;
     text-align: end;
 
@@ -41,7 +41,7 @@ header {
 
 
 .background {
-    height: 70vh;
+    height: 60vh;
     background-image: url("./assets/background.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,9 +55,9 @@ header {
     }
     p {
         font-size: 2rem;
-        width: 50%;
+        width: 80%;
         margin-bottom: 20px;
-        margin-left: 450px;
+        margin-left: 100px;
     }
     button {
         background-color: #66BB6A;
@@ -66,4 +66,42 @@ header {
         padding: 15px 30px;
         border-radius: 30px;
     }
+}
+
+.cards {
+  background-color: #f1f8e9;
+  text-align: center;
+}
+
+.card {
+  width: 20vw;
+  height: 50vh;
+  background-color: #d65d5d;
+  border-radius: 20px;
+  border: solid red;
+  display: inline-block;
+
+  img {
+    width: 100%;
+    border-radius: 20px 20px;
+  }
+
+  h3 {
+    margin-top: 20px;
+    font-size: 1.75rem;
+  }
+
+  p {
+    margin-top: 20px;
+  }
+
+  button {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #66bb6a;
+    color: #ffffff;
+    border: none;
+    font-size: 1.25rem;
+    border-radius: 20px;
+  }
 }
